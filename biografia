@@ -8,6 +8,7 @@
         body {
             font-family: Verdana, sans-serif;
             line-height: 1.6;
+            font-size: 18px; /* tamanho base maior para leitura confortável */
         }
 
         main {
@@ -22,10 +23,23 @@
 
         main h1 {
             color: #FFCB05;
+            font-size: 2.5rem; /* título principal maior e mais chamativo */
+        }
+
+        main p {
+            font-size: 1.1rem; /* parágrafo um pouco maior que o padrão */
         }
 
         header {
             padding: 16px;
+        }
+
+        header h2 {
+            font-size: 1.8rem; /* subtítulo da biografia */
+        }
+
+        header p {
+            font-size: 1.1rem;
         }
 
         img {
